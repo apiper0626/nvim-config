@@ -1,0 +1,63 @@
+# Neovim configuration .gitignore
+
+# Plugin manager cache and installation directory
+.lazy/
+.local/
+.cache/
+
+# LSP and Mason installed servers/tools
+mason/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+
+# Log files
+*.log
+
+# Session files
+Session.vim
+.session
+
+# Undo files (if using persistent undo outside of the standard location)
+*.un~
+
+# Spell files
+*.add
+*.add.spl
+
+# Local environment files
+.env
+.env.local
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+desktop.ini
+
+# Backup files created by some editors/plugins
+*~
+*.orig
+*.bak
+*.backup
+
+# Plugin specific ignores
+# Telescope
+telescope_history
+
+# nvim-tree
+.nvim-tree*
+
+# Custom local configuration (if you have any)
+local.lua
+local/
+lazy-lock.json
